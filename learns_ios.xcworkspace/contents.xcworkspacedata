@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonFamily+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonFamily+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonFamily+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonFamily+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonSchool+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonSchool+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonSchool+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonSchool+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonInfo+CoreDataProperties.h">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonInfo+CoreDataClass.h">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonInfo+CoreDataClass.m">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios/Core Data Example/PersonInfo+CoreDataProperties.m">
+   </FileRef>
+   <FileRef
+      location = "group:learns_ios.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

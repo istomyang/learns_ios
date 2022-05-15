@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Animal" representedClassName="Animal" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="kind" attributeType="String"/>
+    </entity>
+    <entity name="PersonFamily" representedClassName="PersonFamily" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="cat" optional="YES" attributeType="String"/>
+        <attribute name="dog" optional="YES" attributeType="String"/>
+        <attribute name="father" optional="YES" attributeType="String"/>
+        <attribute name="mother" optional="YES" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="info" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonInfo" inverseName="family" inverseEntity="PersonInfo"/>
+    </entity>
+    <entity name="PersonInfo" representedClassName="PersonInfo" parentEntity="Animal" syncable="YES" codeGenerationType="class">
+        <attribute name="age" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="birth" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="height" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="man" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="family" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PersonFamily" inverseName="info" inverseEntity="PersonFamily"/>
+        <relationship name="school" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="PersonSchool" inverseName="info" inverseEntity="PersonSchool"/>
+    </entity>
+    <entity name="PersonSchool" representedClassName="PersonSchool" syncable="YES" codeGenerationType="class">
+        <attribute name="classroom" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="info" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PersonInfo" inverseName="school" inverseEntity="PersonInfo"/>
+    </entity>
+    <elements>
+        <element name="PersonInfo" positionX="-343.0386352539062" positionY="-24.11154174804688" width="128" height="148"/>
+        <element name="PersonSchool" positionX="-50.774658203125" positionY="216.7218017578125" width="128" height="103"/>
+        <element name="PersonFamily" positionX="-79.19525146484375" positionY="-225.8031921386719" width="128" height="148"/>
+        <element name="Animal" positionX="-335.8890991210938" positionY="-152.3393249511719" width="128" height="58"/>
+    </elements>
+</model>

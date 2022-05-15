@@ -7,28 +7,166 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A6C37E79B70FD1AB74C1915 /* Pods_learns_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20186C1911718E5EE4CB61F /* Pods_learns_ios.framework */; };
+		DD69B62F283B13450034B752 /* LIUKMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B62E283B13450034B752 /* LIUKMainVC.m */; };
+		DD69B632283B19D10034B752 /* LIUKAppStructureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B631283B19D10034B752 /* LIUKAppStructureView.m */; };
+		DD69B635283B1A330034B752 /* LIBaseViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B634283B1A330034B752 /* LIBaseViewExample.m */; };
+		DD69B638283B1F6E0034B752 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD69B637283B1F6E0034B752 /* File.swift */; };
+		DD69B63B283B30200034B752 /* DocWatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B63A283B30200034B752 /* DocWatchHelper.m */; };
+		DD69B63E283B44610034B752 /* UIView+U.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B63D283B44610034B752 /* UIView+U.m */; };
 		DD79916128311C0B00E5CF30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79916028311C0B00E5CF30 /* AppDelegate.m */; };
-		DD79916428311C0B00E5CF30 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79916328311C0B00E5CF30 /* SceneDelegate.m */; };
 		DD79916728311C0B00E5CF30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79916628311C0B00E5CF30 /* ViewController.m */; };
-		DD79916A28311C0B00E5CF30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD79916828311C0B00E5CF30 /* Main.storyboard */; };
 		DD79916C28311C0C00E5CF30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD79916B28311C0C00E5CF30 /* Assets.xcassets */; };
-		DD79916F28311C0C00E5CF30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD79916D28311C0C00E5CF30 /* LaunchScreen.storyboard */; };
 		DD79917228311C0C00E5CF30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79917128311C0C00E5CF30 /* main.m */; };
+		DD7991AA283122DA00E5CF30 /* LIWKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991A9283122DA00E5CF30 /* LIWKWebViewVC.m */; };
+		DD7991AF2831242100E5CF30 /* LIHeyObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991AE2831242100E5CF30 /* LIHeyObjc.m */; };
+		DD7991B12831243E00E5CF30 /* LIHeyRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991B02831243E00E5CF30 /* LIHeyRuntime.m */; };
+		DD7991B32831249000E5CF30 /* LIWeirdCodeShow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991B22831249000E5CF30 /* LIWeirdCodeShow.m */; };
+		DD7991B7283124FD00E5CF30 /* TouchOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991B6283124FD00E5CF30 /* TouchOverlayWindow.m */; };
+		DD7991BA2831252700E5CF30 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991B92831252700E5CF30 /* TouchView.m */; };
+		DD7991BE2831261B00E5CF30 /* LIUIMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991BD2831261B00E5CF30 /* LIUIMainVC.m */; };
+		DD7991C1283126C100E5CF30 /* LIUIMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991C0283126C100E5CF30 /* LIUIMoveView.m */; };
+		DD7991C42831277300E5CF30 /* LIUIMoveView2.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991C32831277300E5CF30 /* LIUIMoveView2.m */; };
+		DD7991C72831286400E5CF30 /* LIUIDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991C62831286400E5CF30 /* LIUIDragView.m */; };
+		DD7991CA283128F200E5CF30 /* LIUIPaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991C9283128F200E5CF30 /* LIUIPaintView.m */; };
+		DD7991CD2831298900E5CF30 /* LIUIDragViewOutside.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991CC2831298900E5CF30 /* LIUIDragViewOutside.m */; };
+		DD7991D028312A4A00E5CF30 /* LIUIMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991CF28312A4A00E5CF30 /* LIUIMenuView.m */; };
+		DD7991D52831350800E5CF30 /* LICGContextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991D42831350800E5CF30 /* LICGContextView.m */; };
+		DD7991DC283138CF00E5CF30 /* LIBaseShowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991DB283138CF00E5CF30 /* LIBaseShowVC.m */; };
+		DD7991DF28313BC700E5CF30 /* LIBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991DE28313BC700E5CF30 /* LIBaseView.m */; };
+		DD7991E22831408900E5CF30 /* LICGContextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991E12831408900E5CF30 /* LICGContextVC.m */; };
+		DD7991EB2831EF8F00E5CF30 /* LICGPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991EA2831EF8F00E5CF30 /* LICGPathView.m */; };
+		DD7991EE2831FD0400E5CF30 /* LICGColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991ED2831FD0400E5CF30 /* LICGColorView.m */; };
+		DD7991F1283204E600E5CF30 /* LICGTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991F0283204E600E5CF30 /* LICGTransformView.m */; };
+		DD7991F42832184600E5CF30 /* LICGPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991F32832184600E5CF30 /* LICGPatternView.m */; };
+		DD7991F728322B1000E5CF30 /* LICGShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991F628322B1000E5CF30 /* LICGShadowView.m */; };
+		DD7991FA28322E9500E5CF30 /* LICGGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991F928322E9500E5CF30 /* LICGGradientView.m */; };
+		DD7991FD2832320C00E5CF30 /* LICGTransparencyLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991FC2832320C00E5CF30 /* LICGTransparencyLayerView.m */; };
+		DD7992002832343200E5CF30 /* LIGCBitmapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7991FF2832343200E5CF30 /* LIGCBitmapImageView.m */; };
+		DD79920328323C8600E5CF30 /* LICGLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79920228323C8600E5CF30 /* LICGLayerView.m */; };
+		DD799206283240BC00E5CF30 /* LIGCPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD799205283240BC00E5CF30 /* LIGCPDFView.m */; };
+		DD79920B283249C000E5CF30 /* LIUDMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79920A283249C000E5CF30 /* LIUDMainVC.m */; };
+		DD79920E283266D400E5CF30 /* LIUDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD79920D283266D400E5CF30 /* LIUDTextView.m */; };
+		DD7992142832688600E5CF30 /* UIVC+U.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7992132832688600E5CF30 /* UIVC+U.m */; };
+		DD89C8122832931600E706F6 /* UIColor+U.m in Sources */ = {isa = PBXBuildFile; fileRef = DD89C8112832931600E706F6 /* UIColor+U.m */; };
+		DD89C81828335BBE00E706F6 /* UGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = DD89C81728335BBE00E706F6 /* UGeometry.m */; };
+		DD89C81B2833695E00E706F6 /* UImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DD89C81A2833695E00E706F6 /* UImage.m */; };
+		DD89C81E2833701500E706F6 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = DD89C81D2833701500E706F6 /* Util.m */; };
+		DD89C8242833806500E706F6 /* UDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = DD89C8232833806500E706F6 /* UDrawing.m */; };
+		DD99FF8F283B8D4800E017A3 /* CustomAcivity.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99FF8E283B8D4800E017A3 /* CustomAcivity.m */; };
+		DD99FF92283B9E4A00E017A3 /* LI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD99FF90283B9E4A00E017A3 /* LI.xcdatamodeld */; };
+		DD99FFDE283CB6EF00E017A3 /* LICDESimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99FFDD283CB6EF00E017A3 /* LICDESimpleModel.m */; };
+		DD99FFE2283CBCC600E017A3 /* LIOEMain.m in Sources */ = {isa = PBXBuildFile; fileRef = DD99FFE1283CBCC600E017A3 /* LIOEMain.m */; };
+		DDDC447B28327EB2005580A9 /* LIBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDC447A28327EB2005580A9 /* LIBaseVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7073A84FFA86C6E4AD219FA /* Pods-learns_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learns_ios.release.xcconfig"; path = "Target Support Files/Pods-learns_ios/Pods-learns_ios.release.xcconfig"; sourceTree = "<group>"; };
+		DD69B62D283B13450034B752 /* LIUKMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUKMainVC.h; sourceTree = "<group>"; };
+		DD69B62E283B13450034B752 /* LIUKMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUKMainVC.m; sourceTree = "<group>"; };
+		DD69B630283B19D10034B752 /* LIUKAppStructureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUKAppStructureView.h; sourceTree = "<group>"; };
+		DD69B631283B19D10034B752 /* LIUKAppStructureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUKAppStructureView.m; sourceTree = "<group>"; };
+		DD69B633283B1A330034B752 /* LIBaseViewExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIBaseViewExample.h; sourceTree = "<group>"; };
+		DD69B634283B1A330034B752 /* LIBaseViewExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIBaseViewExample.m; sourceTree = "<group>"; };
+		DD69B636283B1F6E0034B752 /* learns_ios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "learns_ios-Bridging-Header.h"; sourceTree = "<group>"; };
+		DD69B637283B1F6E0034B752 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DD69B639283B30200034B752 /* DocWatchHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocWatchHelper.h; sourceTree = "<group>"; };
+		DD69B63A283B30200034B752 /* DocWatchHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocWatchHelper.m; sourceTree = "<group>"; };
+		DD69B63C283B44610034B752 /* UIView+U.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+U.h"; sourceTree = "<group>"; };
+		DD69B63D283B44610034B752 /* UIView+U.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+U.m"; sourceTree = "<group>"; };
 		DD79915C28311C0B00E5CF30 /* learns_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learns_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD79915F28311C0B00E5CF30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD79916028311C0B00E5CF30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD79916228311C0B00E5CF30 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		DD79916328311C0B00E5CF30 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		DD79916528311C0B00E5CF30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DD79916628311C0B00E5CF30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DD79916928311C0B00E5CF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD79916B28311C0C00E5CF30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD79916E28311C0C00E5CF30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD79917028311C0C00E5CF30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD79917128311C0C00E5CF30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD79917828311C2C00E5CF30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD79919E2831200300E5CF30 /* LI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LI.h; sourceTree = "<group>"; };
+		DD7991A8283122DA00E5CF30 /* LIWKWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIWKWebViewVC.h; sourceTree = "<group>"; };
+		DD7991A9283122DA00E5CF30 /* LIWKWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIWKWebViewVC.m; sourceTree = "<group>"; };
+		DD7991AE2831242100E5CF30 /* LIHeyObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIHeyObjc.m; sourceTree = "<group>"; };
+		DD7991B02831243E00E5CF30 /* LIHeyRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIHeyRuntime.m; sourceTree = "<group>"; };
+		DD7991B22831249000E5CF30 /* LIWeirdCodeShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIWeirdCodeShow.m; sourceTree = "<group>"; };
+		DD7991B5283124FD00E5CF30 /* TouchOverlayWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchOverlayWindow.h; sourceTree = "<group>"; };
+		DD7991B6283124FD00E5CF30 /* TouchOverlayWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchOverlayWindow.m; sourceTree = "<group>"; };
+		DD7991B82831252700E5CF30 /* TouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		DD7991B92831252700E5CF30 /* TouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		DD7991BC2831261B00E5CF30 /* LIUIMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUIMainVC.h; sourceTree = "<group>"; };
+		DD7991BD2831261B00E5CF30 /* LIUIMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUIMainVC.m; sourceTree = "<group>"; };
+		DD7991BF283126C100E5CF30 /* LIUIMoveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUIMoveView.h; sourceTree = "<group>"; };
+		DD7991C0283126C100E5CF30 /* LIUIMoveView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUIMoveView.m; sourceTree = "<group>"; };
+		DD7991C22831277300E5CF30 /* LIUIMoveView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUIMoveView2.h; sourceTree = "<group>"; };
+		DD7991C32831277300E5CF30 /* LIUIMoveView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUIMoveView2.m; sourceTree = "<group>"; };
+		DD7991C52831286400E5CF30 /* LIUIDragView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUIDragView.h; sourceTree = "<group>"; };
+		DD7991C62831286400E5CF30 /* LIUIDragView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUIDragView.m; sourceTree = "<group>"; };
+		DD7991C8283128F200E5CF30 /* LIUIPaintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUIPaintView.h; sourceTree = "<group>"; };
+		DD7991C9283128F200E5CF30 /* LIUIPaintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUIPaintView.m; sourceTree = "<group>"; };
+		DD7991CB2831298900E5CF30 /* LIUIDragViewOutside.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUIDragViewOutside.h; sourceTree = "<group>"; };
+		DD7991CC2831298900E5CF30 /* LIUIDragViewOutside.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUIDragViewOutside.m; sourceTree = "<group>"; };
+		DD7991CE28312A4A00E5CF30 /* LIUIMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUIMenuView.h; sourceTree = "<group>"; };
+		DD7991CF28312A4A00E5CF30 /* LIUIMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUIMenuView.m; sourceTree = "<group>"; };
+		DD7991D2283131CC00E5CF30 /* CG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CG.md; sourceTree = "<group>"; };
+		DD7991D32831350800E5CF30 /* LICGContextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGContextView.h; sourceTree = "<group>"; };
+		DD7991D42831350800E5CF30 /* LICGContextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGContextView.m; sourceTree = "<group>"; };
+		DD7991DA283138CF00E5CF30 /* LIBaseShowVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIBaseShowVC.h; sourceTree = "<group>"; };
+		DD7991DB283138CF00E5CF30 /* LIBaseShowVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIBaseShowVC.m; sourceTree = "<group>"; };
+		DD7991DD28313BC700E5CF30 /* LIBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIBaseView.h; sourceTree = "<group>"; };
+		DD7991DE28313BC700E5CF30 /* LIBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIBaseView.m; sourceTree = "<group>"; };
+		DD7991E02831408900E5CF30 /* LICGContextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGContextVC.h; sourceTree = "<group>"; };
+		DD7991E12831408900E5CF30 /* LICGContextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGContextVC.m; sourceTree = "<group>"; };
+		DD7991E92831EF8F00E5CF30 /* LICGPathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGPathView.h; sourceTree = "<group>"; };
+		DD7991EA2831EF8F00E5CF30 /* LICGPathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGPathView.m; sourceTree = "<group>"; };
+		DD7991EC2831FD0400E5CF30 /* LICGColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGColorView.h; sourceTree = "<group>"; };
+		DD7991ED2831FD0400E5CF30 /* LICGColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGColorView.m; sourceTree = "<group>"; };
+		DD7991EF283204E600E5CF30 /* LICGTransformView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGTransformView.h; sourceTree = "<group>"; };
+		DD7991F0283204E600E5CF30 /* LICGTransformView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGTransformView.m; sourceTree = "<group>"; };
+		DD7991F22832184600E5CF30 /* LICGPatternView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGPatternView.h; sourceTree = "<group>"; };
+		DD7991F32832184600E5CF30 /* LICGPatternView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGPatternView.m; sourceTree = "<group>"; };
+		DD7991F528322B1000E5CF30 /* LICGShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGShadowView.h; sourceTree = "<group>"; };
+		DD7991F628322B1000E5CF30 /* LICGShadowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGShadowView.m; sourceTree = "<group>"; };
+		DD7991F828322E9500E5CF30 /* LICGGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGGradientView.h; sourceTree = "<group>"; };
+		DD7991F928322E9500E5CF30 /* LICGGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGGradientView.m; sourceTree = "<group>"; };
+		DD7991FB2832320C00E5CF30 /* LICGTransparencyLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGTransparencyLayerView.h; sourceTree = "<group>"; };
+		DD7991FC2832320C00E5CF30 /* LICGTransparencyLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGTransparencyLayerView.m; sourceTree = "<group>"; };
+		DD7991FE2832343200E5CF30 /* LIGCBitmapImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIGCBitmapImageView.h; sourceTree = "<group>"; };
+		DD7991FF2832343200E5CF30 /* LIGCBitmapImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIGCBitmapImageView.m; sourceTree = "<group>"; };
+		DD79920128323C8600E5CF30 /* LICGLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICGLayerView.h; sourceTree = "<group>"; };
+		DD79920228323C8600E5CF30 /* LICGLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICGLayerView.m; sourceTree = "<group>"; };
+		DD799204283240BC00E5CF30 /* LIGCPDFView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIGCPDFView.h; sourceTree = "<group>"; };
+		DD799205283240BC00E5CF30 /* LIGCPDFView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIGCPDFView.m; sourceTree = "<group>"; };
+		DD799209283249C000E5CF30 /* LIUDMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUDMainVC.h; sourceTree = "<group>"; };
+		DD79920A283249C000E5CF30 /* LIUDMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUDMainVC.m; sourceTree = "<group>"; };
+		DD79920C283266D400E5CF30 /* LIUDTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUDTextView.h; sourceTree = "<group>"; };
+		DD79920D283266D400E5CF30 /* LIUDTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUDTextView.m; sourceTree = "<group>"; };
+		DD7992122832688600E5CF30 /* UIVC+U.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIVC+U.h"; sourceTree = "<group>"; };
+		DD7992132832688600E5CF30 /* UIVC+U.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIVC+U.m"; sourceTree = "<group>"; };
+		DD81BE1A2832708F00E10F81 /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		DD89C8102832931600E706F6 /* UIColor+U.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+U.h"; sourceTree = "<group>"; };
+		DD89C8112832931600E706F6 /* UIColor+U.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+U.m"; sourceTree = "<group>"; };
+		DD89C81728335BBE00E706F6 /* UGeometry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UGeometry.m; sourceTree = "<group>"; };
+		DD89C81928335BCA00E706F6 /* UGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UGeometry.h; sourceTree = "<group>"; };
+		DD89C81A2833695E00E706F6 /* UImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UImage.m; sourceTree = "<group>"; };
+		DD89C81C2833696900E706F6 /* UImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UImage.h; sourceTree = "<group>"; };
+		DD89C81D2833701500E706F6 /* Util.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		DD89C81F2833701D00E706F6 /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		DD89C8212833758700E706F6 /* Import.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Import.h; sourceTree = "<group>"; };
+		DD89C8222833760F00E706F6 /* Export.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Export.h; sourceTree = "<group>"; };
+		DD89C8232833806500E706F6 /* UDrawing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDrawing.m; sourceTree = "<group>"; };
+		DD89C8252833806D00E706F6 /* UDrawing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UDrawing.h; sourceTree = "<group>"; };
+		DD99FF8D283B8D4800E017A3 /* CustomAcivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAcivity.h; sourceTree = "<group>"; };
+		DD99FF8E283B8D4800E017A3 /* CustomAcivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAcivity.m; sourceTree = "<group>"; };
+		DD99FF91283B9E4A00E017A3 /* LI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LI.xcdatamodel; sourceTree = "<group>"; };
+		DD99FF93283BA18C00E017A3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD99FFDC283CB6EF00E017A3 /* LICDESimpleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LICDESimpleModel.h; sourceTree = "<group>"; };
+		DD99FFDD283CB6EF00E017A3 /* LICDESimpleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LICDESimpleModel.m; sourceTree = "<group>"; };
+		DD99FFE0283CBCC600E017A3 /* LIOEMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIOEMain.h; sourceTree = "<group>"; };
+		DD99FFE1283CBCC600E017A3 /* LIOEMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIOEMain.m; sourceTree = "<group>"; };
+		DDDC447928327EB2005580A9 /* LIBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIBaseVC.h; sourceTree = "<group>"; };
+		DDDC447A28327EB2005580A9 /* LIBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIBaseVC.m; sourceTree = "<group>"; };
+		E20186C1911718E5EE4CB61F /* Pods_learns_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learns_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDFA7F60C4D5FA145103194 /* Pods-learns_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learns_ios.debug.xcconfig"; path = "Target Support Files/Pods-learns_ios/Pods-learns_ios.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +174,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A6C37E79B70FD1AB74C1915 /* Pods_learns_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A553F62D2C6709520028AEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E20186C1911718E5EE4CB61F /* Pods_learns_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34B2E966C1F11491DAC17A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFDFA7F60C4D5FA145103194 /* Pods-learns_ios.debug.xcconfig */,
+				A7073A84FFA86C6E4AD219FA /* Pods-learns_ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD69B62C283B13120034B752 /* UIKit Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD69B62D283B13450034B752 /* LIUKMainVC.h */,
+				DD69B62E283B13450034B752 /* LIUKMainVC.m */,
+				DD69B630283B19D10034B752 /* LIUKAppStructureView.h */,
+				DD69B631283B19D10034B752 /* LIUKAppStructureView.m */,
+				DD69B637283B1F6E0034B752 /* File.swift */,
+				DD69B639283B30200034B752 /* DocWatchHelper.h */,
+				DD69B63A283B30200034B752 /* DocWatchHelper.m */,
+				DD99FF8D283B8D4800E017A3 /* CustomAcivity.h */,
+				DD99FF8E283B8D4800E017A3 /* CustomAcivity.m */,
+			);
+			path = "UIKit Example";
+			sourceTree = "<group>";
+		};
 		DD79915328311C0B00E5CF30 = {
 			isa = PBXGroup;
 			children = (
 				DD79915E28311C0B00E5CF30 /* learns_ios */,
 				DD79915D28311C0B00E5CF30 /* Products */,
+				D34B2E966C1F11491DAC17A7 /* Pods */,
+				A553F62D2C6709520028AEE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +235,182 @@
 		DD79915E28311C0B00E5CF30 /* learns_ios */ = {
 			isa = PBXGroup;
 			children = (
+				DD99FFDF283CBC8500E017A3 /* Objc Example */,
+				DD99FFDB283CB68600E017A3 /* Core Data Example */,
+				DD69B636283B1F6E0034B752 /* learns_ios-Bridging-Header.h */,
+				DD69B62C283B13120034B752 /* UIKit Example */,
+				DD89C8142833599500E706F6 /* Util */,
+				DD7991D9283138A700E5CF30 /* Base */,
+				DD7992082832493700E5CF30 /* UIKit Drawing */,
+				DD7991D12831318400E5CF30 /* CoreGraphics */,
+				DD7991BB283125AF00E5CF30 /* UserInteraction */,
+				DD7991B4283124D600E5CF30 /* TouchKit */,
+				DD7991AD283123F100E5CF30 /* Objc */,
+				DD7991A7283122BC00E5CF30 /* WebKit */,
 				DD79915F28311C0B00E5CF30 /* AppDelegate.h */,
 				DD79916028311C0B00E5CF30 /* AppDelegate.m */,
-				DD79916228311C0B00E5CF30 /* SceneDelegate.h */,
-				DD79916328311C0B00E5CF30 /* SceneDelegate.m */,
 				DD79916528311C0B00E5CF30 /* ViewController.h */,
 				DD79916628311C0B00E5CF30 /* ViewController.m */,
-				DD79916828311C0B00E5CF30 /* Main.storyboard */,
 				DD79916B28311C0C00E5CF30 /* Assets.xcassets */,
-				DD79916D28311C0C00E5CF30 /* LaunchScreen.storyboard */,
 				DD79917028311C0C00E5CF30 /* Info.plist */,
 				DD79917128311C0C00E5CF30 /* main.m */,
+				DD79917828311C2C00E5CF30 /* README.md */,
+				DD79919E2831200300E5CF30 /* LI.h */,
+				DD81BE1A2832708F00E10F81 /* Notes.md */,
 			);
 			path = learns_ios;
+			sourceTree = "<group>";
+		};
+		DD7991A7283122BC00E5CF30 /* WebKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD7991A8283122DA00E5CF30 /* LIWKWebViewVC.h */,
+				DD7991A9283122DA00E5CF30 /* LIWKWebViewVC.m */,
+			);
+			path = WebKit;
+			sourceTree = "<group>";
+		};
+		DD7991AD283123F100E5CF30 /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				DD7991AE2831242100E5CF30 /* LIHeyObjc.m */,
+				DD7991B02831243E00E5CF30 /* LIHeyRuntime.m */,
+				DD7991B22831249000E5CF30 /* LIWeirdCodeShow.m */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		DD7991B4283124D600E5CF30 /* TouchKit */ = {
+			isa = PBXGroup;
+			children = (
+				DD7991B5283124FD00E5CF30 /* TouchOverlayWindow.h */,
+				DD7991B6283124FD00E5CF30 /* TouchOverlayWindow.m */,
+				DD7991B82831252700E5CF30 /* TouchView.h */,
+				DD7991B92831252700E5CF30 /* TouchView.m */,
+			);
+			path = TouchKit;
+			sourceTree = "<group>";
+		};
+		DD7991BB283125AF00E5CF30 /* UserInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				DD7991BC2831261B00E5CF30 /* LIUIMainVC.h */,
+				DD7991BD2831261B00E5CF30 /* LIUIMainVC.m */,
+				DD7991BF283126C100E5CF30 /* LIUIMoveView.h */,
+				DD7991C0283126C100E5CF30 /* LIUIMoveView.m */,
+				DD7991C22831277300E5CF30 /* LIUIMoveView2.h */,
+				DD7991C32831277300E5CF30 /* LIUIMoveView2.m */,
+				DD7991C52831286400E5CF30 /* LIUIDragView.h */,
+				DD7991C62831286400E5CF30 /* LIUIDragView.m */,
+				DD7991C8283128F200E5CF30 /* LIUIPaintView.h */,
+				DD7991C9283128F200E5CF30 /* LIUIPaintView.m */,
+				DD7991CB2831298900E5CF30 /* LIUIDragViewOutside.h */,
+				DD7991CC2831298900E5CF30 /* LIUIDragViewOutside.m */,
+				DD7991CE28312A4A00E5CF30 /* LIUIMenuView.h */,
+				DD7991CF28312A4A00E5CF30 /* LIUIMenuView.m */,
+			);
+			path = UserInteraction;
+			sourceTree = "<group>";
+		};
+		DD7991D12831318400E5CF30 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				DD7991D2283131CC00E5CF30 /* CG.md */,
+				DD7991D32831350800E5CF30 /* LICGContextView.h */,
+				DD7991D42831350800E5CF30 /* LICGContextView.m */,
+				DD7991E02831408900E5CF30 /* LICGContextVC.h */,
+				DD7991E12831408900E5CF30 /* LICGContextVC.m */,
+				DD7991E92831EF8F00E5CF30 /* LICGPathView.h */,
+				DD7991EA2831EF8F00E5CF30 /* LICGPathView.m */,
+				DD7991EC2831FD0400E5CF30 /* LICGColorView.h */,
+				DD7991ED2831FD0400E5CF30 /* LICGColorView.m */,
+				DD7991EF283204E600E5CF30 /* LICGTransformView.h */,
+				DD7991F0283204E600E5CF30 /* LICGTransformView.m */,
+				DD7991F22832184600E5CF30 /* LICGPatternView.h */,
+				DD7991F32832184600E5CF30 /* LICGPatternView.m */,
+				DD7991F528322B1000E5CF30 /* LICGShadowView.h */,
+				DD7991F628322B1000E5CF30 /* LICGShadowView.m */,
+				DD7991F828322E9500E5CF30 /* LICGGradientView.h */,
+				DD7991F928322E9500E5CF30 /* LICGGradientView.m */,
+				DD7991FB2832320C00E5CF30 /* LICGTransparencyLayerView.h */,
+				DD7991FC2832320C00E5CF30 /* LICGTransparencyLayerView.m */,
+				DD7991FE2832343200E5CF30 /* LIGCBitmapImageView.h */,
+				DD7991FF2832343200E5CF30 /* LIGCBitmapImageView.m */,
+				DD79920128323C8600E5CF30 /* LICGLayerView.h */,
+				DD79920228323C8600E5CF30 /* LICGLayerView.m */,
+				DD799204283240BC00E5CF30 /* LIGCPDFView.h */,
+				DD799205283240BC00E5CF30 /* LIGCPDFView.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		DD7991D9283138A700E5CF30 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DD7991DA283138CF00E5CF30 /* LIBaseShowVC.h */,
+				DD7991DB283138CF00E5CF30 /* LIBaseShowVC.m */,
+				DD7991DD28313BC700E5CF30 /* LIBaseView.h */,
+				DD7991DE28313BC700E5CF30 /* LIBaseView.m */,
+				DDDC447928327EB2005580A9 /* LIBaseVC.h */,
+				DDDC447A28327EB2005580A9 /* LIBaseVC.m */,
+				DD69B633283B1A330034B752 /* LIBaseViewExample.h */,
+				DD69B634283B1A330034B752 /* LIBaseViewExample.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DD7992082832493700E5CF30 /* UIKit Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				DD799209283249C000E5CF30 /* LIUDMainVC.h */,
+				DD79920A283249C000E5CF30 /* LIUDMainVC.m */,
+				DD79920C283266D400E5CF30 /* LIUDTextView.h */,
+				DD79920D283266D400E5CF30 /* LIUDTextView.m */,
+			);
+			path = "UIKit Drawing";
+			sourceTree = "<group>";
+		};
+		DD89C8142833599500E706F6 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DD89C81728335BBE00E706F6 /* UGeometry.m */,
+				DD89C81928335BCA00E706F6 /* UGeometry.h */,
+				DD89C81A2833695E00E706F6 /* UImage.m */,
+				DD89C81C2833696900E706F6 /* UImage.h */,
+				DD7992122832688600E5CF30 /* UIVC+U.h */,
+				DD7992132832688600E5CF30 /* UIVC+U.m */,
+				DD89C8102832931600E706F6 /* UIColor+U.h */,
+				DD89C8112832931600E706F6 /* UIColor+U.m */,
+				DD89C81D2833701500E706F6 /* Util.m */,
+				DD89C81F2833701D00E706F6 /* Util.h */,
+				DD89C8212833758700E706F6 /* Import.h */,
+				DD89C8222833760F00E706F6 /* Export.h */,
+				DD89C8232833806500E706F6 /* UDrawing.m */,
+				DD89C8252833806D00E706F6 /* UDrawing.h */,
+				DD69B63C283B44610034B752 /* UIView+U.h */,
+				DD69B63D283B44610034B752 /* UIView+U.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		DD99FFDB283CB68600E017A3 /* Core Data Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD99FF93283BA18C00E017A3 /* README.md */,
+				DD99FF90283B9E4A00E017A3 /* LI.xcdatamodeld */,
+				DD99FFDC283CB6EF00E017A3 /* LICDESimpleModel.h */,
+				DD99FFDD283CB6EF00E017A3 /* LICDESimpleModel.m */,
+			);
+			path = "Core Data Example";
+			sourceTree = "<group>";
+		};
+		DD99FFDF283CBC8500E017A3 /* Objc Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD99FFE0283CBCC600E017A3 /* LIOEMain.h */,
+				DD99FFE1283CBCC600E017A3 /* LIOEMain.m */,
+			);
+			path = "Objc Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +420,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD79917528311C0C00E5CF30 /* Build configuration list for PBXNativeTarget "learns_ios" */;
 			buildPhases = (
+				B6ED17EAFFE72FCA9C005E21 /* [CP] Check Pods Manifest.lock */,
 				DD79915828311C0B00E5CF30 /* Sources */,
 				DD79915928311C0B00E5CF30 /* Frameworks */,
 				DD79915A28311C0B00E5CF30 /* Resources */,
@@ -107,6 +445,7 @@
 				TargetAttributes = {
 					DD79915B28311C0B00E5CF30 = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -133,46 +472,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD79916F28311C0C00E5CF30 /* LaunchScreen.storyboard in Resources */,
 				DD79916C28311C0C00E5CF30 /* Assets.xcassets in Resources */,
-				DD79916A28311C0B00E5CF30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6ED17EAFFE72FCA9C005E21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-learns_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DD79915828311C0B00E5CF30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7991EB2831EF8F00E5CF30 /* LICGPathView.m in Sources */,
+				DD89C81B2833695E00E706F6 /* UImage.m in Sources */,
+				DD89C8242833806500E706F6 /* UDrawing.m in Sources */,
+				DD7991DC283138CF00E5CF30 /* LIBaseShowVC.m in Sources */,
+				DD69B63B283B30200034B752 /* DocWatchHelper.m in Sources */,
+				DD89C8122832931600E706F6 /* UIColor+U.m in Sources */,
+				DD69B63E283B44610034B752 /* UIView+U.m in Sources */,
 				DD79916728311C0B00E5CF30 /* ViewController.m in Sources */,
+				DD7991C1283126C100E5CF30 /* LIUIMoveView.m in Sources */,
+				DD7991D52831350800E5CF30 /* LICGContextView.m in Sources */,
 				DD79916128311C0B00E5CF30 /* AppDelegate.m in Sources */,
+				DD7991B32831249000E5CF30 /* LIWeirdCodeShow.m in Sources */,
+				DD99FFE2283CBCC600E017A3 /* LIOEMain.m in Sources */,
+				DD7991CA283128F200E5CF30 /* LIUIPaintView.m in Sources */,
+				DD69B62F283B13450034B752 /* LIUKMainVC.m in Sources */,
+				DD7991FA28322E9500E5CF30 /* LICGGradientView.m in Sources */,
+				DD89C81828335BBE00E706F6 /* UGeometry.m in Sources */,
+				DD99FF92283B9E4A00E017A3 /* LI.xcdatamodeld in Sources */,
+				DD799206283240BC00E5CF30 /* LIGCPDFView.m in Sources */,
+				DD7991BA2831252700E5CF30 /* TouchView.m in Sources */,
+				DD7991B12831243E00E5CF30 /* LIHeyRuntime.m in Sources */,
+				DD7991DF28313BC700E5CF30 /* LIBaseView.m in Sources */,
+				DD79920E283266D400E5CF30 /* LIUDTextView.m in Sources */,
+				DD69B632283B19D10034B752 /* LIUKAppStructureView.m in Sources */,
+				DD89C81E2833701500E706F6 /* Util.m in Sources */,
+				DD79920328323C8600E5CF30 /* LICGLayerView.m in Sources */,
+				DD99FFDE283CB6EF00E017A3 /* LICDESimpleModel.m in Sources */,
+				DD7991F1283204E600E5CF30 /* LICGTransformView.m in Sources */,
+				DD7991B7283124FD00E5CF30 /* TouchOverlayWindow.m in Sources */,
+				DD7991CD2831298900E5CF30 /* LIUIDragViewOutside.m in Sources */,
+				DD7991F42832184600E5CF30 /* LICGPatternView.m in Sources */,
+				DD79920B283249C000E5CF30 /* LIUDMainVC.m in Sources */,
+				DD7991BE2831261B00E5CF30 /* LIUIMainVC.m in Sources */,
 				DD79917228311C0C00E5CF30 /* main.m in Sources */,
-				DD79916428311C0B00E5CF30 /* SceneDelegate.m in Sources */,
+				DD7991C42831277300E5CF30 /* LIUIMoveView2.m in Sources */,
+				DD7991E22831408900E5CF30 /* LICGContextVC.m in Sources */,
+				DD7991D028312A4A00E5CF30 /* LIUIMenuView.m in Sources */,
+				DD7992002832343200E5CF30 /* LIGCBitmapImageView.m in Sources */,
+				DD7991AA283122DA00E5CF30 /* LIWKWebViewVC.m in Sources */,
+				DD7991C72831286400E5CF30 /* LIUIDragView.m in Sources */,
+				DD7991F728322B1000E5CF30 /* LICGShadowView.m in Sources */,
+				DD7991AF2831242100E5CF30 /* LIHeyObjc.m in Sources */,
+				DD69B638283B1F6E0034B752 /* File.swift in Sources */,
+				DD99FF8F283B8D4800E017A3 /* CustomAcivity.m in Sources */,
+				DD7991EE2831FD0400E5CF30 /* LICGColorView.m in Sources */,
+				DD7991FD2832320C00E5CF30 /* LICGTransparencyLayerView.m in Sources */,
+				DDDC447B28327EB2005580A9 /* LIBaseVC.m in Sources */,
+				DD7992142832688600E5CF30 /* UIVC+U.m in Sources */,
+				DD69B635283B1A330034B752 /* LIBaseViewExample.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DD79916828311C0B00E5CF30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD79916928311C0B00E5CF30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD79916D28311C0C00E5CF30 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD79916E28311C0C00E5CF30 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD79917328311C0C00E5CF30 /* Debug */ = {
@@ -287,17 +675,17 @@
 		};
 		DD79917628311C0C00E5CF30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDFA7F60C4D5FA145103194 /* Pods-learns_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GR49D648JJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = learns_ios/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,23 +696,26 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ty.app.learns-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "learns_ios/learns_ios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DD79917728311C0C00E5CF30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7073A84FFA86C6E4AD219FA /* Pods-learns_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GR49D648JJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = learns_ios/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,7 +726,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "ty.app.learns-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OBJC_BRIDGING_HEADER = "learns_ios/learns_ios-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +754,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD99FF90283B9E4A00E017A3 /* LI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD99FF91283B9E4A00E017A3 /* LI.xcdatamodel */,
+			);
+			currentVersion = DD99FF91283B9E4A00E017A3 /* LI.xcdatamodel */;
+			path = LI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DD79915428311C0B00E5CF30 /* Project object */;
 }
