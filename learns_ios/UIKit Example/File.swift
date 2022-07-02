@@ -10,6 +10,6 @@ import CoreServices
 import UniformTypeIdentifiers
 
 func f() {
-    kUTTagClassFilenameExtension
+//    kUTTagClassFilenameExtension
     //UTTypeCreatePreferredIdentifierForTag(<#T##inTagClass: CFString##CFString#>, <#T##inTag: CFString##CFString#>, <#T##inConformingToUTI: CFString?##CFString?#>)
 }

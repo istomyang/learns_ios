@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1A6C37E79B70FD1AB74C1915 /* Pods_learns_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20186C1911718E5EE4CB61F /* Pods_learns_ios.framework */; };
+		DD2C6F04283CFB01001482B8 /* LIFEPredicateExample.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2C6F03283CFB01001482B8 /* LIFEPredicateExample.m */; };
+		DD2C6F09283D18A7001482B8 /* LISCNetworkCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2C6F08283D18A7001482B8 /* LISCNetworkCheck.m */; };
 		DD69B62F283B13450034B752 /* LIUKMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B62E283B13450034B752 /* LIUKMainVC.m */; };
 		DD69B632283B19D10034B752 /* LIUKAppStructureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B631283B19D10034B752 /* LIUKAppStructureView.m */; };
 		DD69B635283B1A330034B752 /* LIBaseViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = DD69B634283B1A330034B752 /* LIBaseViewExample.m */; };
@@ -62,6 +64,11 @@
 
 /* Begin PBXFileReference section */
 		A7073A84FFA86C6E4AD219FA /* Pods-learns_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learns_ios.release.xcconfig"; path = "Target Support Files/Pods-learns_ios/Pods-learns_ios.release.xcconfig"; sourceTree = "<group>"; };
+		DD2C6F02283CFB01001482B8 /* LIFEPredicateExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIFEPredicateExample.h; sourceTree = "<group>"; };
+		DD2C6F03283CFB01001482B8 /* LIFEPredicateExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIFEPredicateExample.m; sourceTree = "<group>"; };
+		DD2C6F06283D1847001482B8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD2C6F07283D18A7001482B8 /* LISCNetworkCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LISCNetworkCheck.h; sourceTree = "<group>"; };
+		DD2C6F08283D18A7001482B8 /* LISCNetworkCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LISCNetworkCheck.m; sourceTree = "<group>"; };
 		DD69B62D283B13450034B752 /* LIUKMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUKMainVC.h; sourceTree = "<group>"; };
 		DD69B62E283B13450034B752 /* LIUKMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIUKMainVC.m; sourceTree = "<group>"; };
 		DD69B630283B19D10034B752 /* LIUKAppStructureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIUKAppStructureView.h; sourceTree = "<group>"; };
@@ -198,6 +205,25 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DD2C6F01283CFA32001482B8 /* Foundation Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD2C6F02283CFB01001482B8 /* LIFEPredicateExample.h */,
+				DD2C6F03283CFB01001482B8 /* LIFEPredicateExample.m */,
+			);
+			path = "Foundation Example";
+			sourceTree = "<group>";
+		};
+		DD2C6F05283D1800001482B8 /* System Configuration Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD2C6F06283D1847001482B8 /* README.md */,
+				DD2C6F07283D18A7001482B8 /* LISCNetworkCheck.h */,
+				DD2C6F08283D18A7001482B8 /* LISCNetworkCheck.m */,
+			);
+			path = "System Configuration Example";
+			sourceTree = "<group>";
+		};
 		DD69B62C283B13120034B752 /* UIKit Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,9 +261,11 @@
 		DD79915E28311C0B00E5CF30 /* learns_ios */ = {
 			isa = PBXGroup;
 			children = (
+				DD2C6F05283D1800001482B8 /* System Configuration Example */,
+				DD2C6F01283CFA32001482B8 /* Foundation Example */,
+				DD69B636283B1F6E0034B752 /* learns_ios-Bridging-Header.h */,
 				DD99FFDF283CBC8500E017A3 /* Objc Example */,
 				DD99FFDB283CB68600E017A3 /* Core Data Example */,
-				DD69B636283B1F6E0034B752 /* learns_ios-Bridging-Header.h */,
 				DD69B62C283B13120034B752 /* UIKit Example */,
 				DD89C8142833599500E706F6 /* Util */,
 				DD7991D9283138A700E5CF30 /* Base */,
@@ -522,6 +550,7 @@
 				DD7991B32831249000E5CF30 /* LIWeirdCodeShow.m in Sources */,
 				DD99FFE2283CBCC600E017A3 /* LIOEMain.m in Sources */,
 				DD7991CA283128F200E5CF30 /* LIUIPaintView.m in Sources */,
+				DD2C6F04283CFB01001482B8 /* LIFEPredicateExample.m in Sources */,
 				DD69B62F283B13450034B752 /* LIUKMainVC.m in Sources */,
 				DD7991FA28322E9500E5CF30 /* LICGGradientView.m in Sources */,
 				DD89C81828335BBE00E706F6 /* UGeometry.m in Sources */,
@@ -549,6 +578,7 @@
 				DD7991AA283122DA00E5CF30 /* LIWKWebViewVC.m in Sources */,
 				DD7991C72831286400E5CF30 /* LIUIDragView.m in Sources */,
 				DD7991F728322B1000E5CF30 /* LICGShadowView.m in Sources */,
+				DD2C6F09283D18A7001482B8 /* LISCNetworkCheck.m in Sources */,
 				DD7991AF2831242100E5CF30 /* LIHeyObjc.m in Sources */,
 				DD69B638283B1F6E0034B752 /* File.swift in Sources */,
 				DD99FF8F283B8D4800E017A3 /* CustomAcivity.m in Sources */,
